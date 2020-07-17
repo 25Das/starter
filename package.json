@@ -1,0 +1,17 @@
+{
+	"name": "starter",
+	"version": "1.0.0",
+	"description": "Programação web básica",
+	"main": "index.html",
+	"repository": "",
+	"author": "25Das <daniel.raizon@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^7.4.0",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "^2.0.5"
+	}
+}
