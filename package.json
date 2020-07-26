@@ -1,17 +1,22 @@
 {
 	"name": "starter",
-	"version": "1.0.0",
-	"description": "Programação web básica",
-	"main": "index.html",
-	"repository": "",
+	"main": "src/server.js",
 	"author": "25Das <daniel.raizon@gmail.com>",
 	"license": "MIT",
+	"scripts": {
+		"start": "nodemon src/server.js"
+	},
 	"devDependencies": {
 		"eslint": "^7.5.0",
 		"eslint-config-airbnb-base": "^14.2.0",
 		"eslint-config-prettier": "^6.11.0",
 		"eslint-plugin-import": "^2.22.0",
 		"eslint-plugin-prettier": "^3.1.4",
+		"nodemon": "^2.0.4",
 		"prettier": "^2.0.5"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"nunjucks": "^3.2.2"
 	}
 }
